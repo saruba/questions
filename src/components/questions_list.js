@@ -14,7 +14,6 @@ const QuestionList = ({ isFetching, data, keywords }) => {
   return (
     <div className="questions-list">
       {questions}
-      {questions}
       <ShowMore />
     </div>
   );
